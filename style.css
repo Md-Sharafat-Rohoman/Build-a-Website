@@ -1,0 +1,118 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    background-color: black;
+    padding: 20px;
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logoImage {
+    width: 100px;
+}
+
+.manus {
+    display: flex;
+    align-items: center;
+    /* gap: 20px; */
+}
+
+.manus li {
+    margin: 10px;
+}
+
+.manus li:hover {
+    color: blueviolet;
+    cursor: pointer;
+}
+
+/*  */
+.bannerImg {
+    width: 300px;
+}
+
+.banner-container {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-image: url("./images/background.png"),linear-gradient(45deg , rgb(17, 16, 16)); */
+    background-image: url("./images/background.png"), linear-gradient(45deg, rgb(8, 8, 8), rgb(53, 53, 53));
+    color: white;
+}
+
+.title {
+    font-size: 55px;
+    font-weight: 800;
+}
+
+.description {
+    font-size: 18px;
+    margin: 20px 0px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+/* second div  */
+.about-title{
+    font-size: 50px;
+    text-align: center;
+    margin-top:50px ;
+}
+.banner-png{
+    width: 300px;
+}
+.about{
+    text-align: center;
+    margin: 40px 0px;
+    font-size: 70px;
+    font-weight: bolder;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.text-div h2{
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.contact{
+    margin-top: 15px;
+}
+.box{
+    width: 230px;
+    height: 250px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin: 50px auto;
+}
+.icon{
+    width: 70px;
+}
+.box-btn{
+    background-color: gray;
+    margin-top: 20px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 50px; */
+    padding: 20px;
+    background-color: rgb(58, 54, 54);
+}
